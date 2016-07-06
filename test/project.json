@@ -17,7 +17,11 @@
         "test": "xunit.runner.dnx"
     },
     "frameworks": {
-        "dnx451": { },
+        "dnx451": {
+            "dependencies": {
+                "Moq": "4.5.10"
+            }
+        },
         "dnxcore50": {
           "dependencies": {
             "Microsoft.CSharp": "4.0.1-beta-23516",
