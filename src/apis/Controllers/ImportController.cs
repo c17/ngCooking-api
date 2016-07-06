@@ -45,6 +45,7 @@ namespace apis.Controllers
                     if (!_context.Users.Any(u => u.Email == user.Email))
                     {
                         user.UserName = user.Email;
+                        user.Password = "password";
                         var result = await _userManager.CreateAsync(user, user.Password);
                     }
                 }
