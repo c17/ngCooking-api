@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C14FF30-89E4-4361-B0CD-08540B0E2E58}"
 EndProject
@@ -14,7 +14,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "apis", "src\apis\apis.xproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{608682D7-02F2-44EE-997D-663F3C23F95B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "UnitTest\api.csproj", "{F3245B09-D673-42B6-8880-2603A5DB297D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apis", "UnitTest\apis.csproj", "{F3245B09-D673-42B6-8880-2603A5DB297D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2878F59-144E-43A2-9A61-C0705DE6916D} = {A2878F59-144E-43A2-9A61-C0705DE6916D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
